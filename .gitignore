@@ -1,0 +1,23 @@
+# Data database MariaDB (dibuat otomatis oleh kontainer)
+db/data/
+
+# Sertifikat SSL lokal (dibuat ulang di tiap laptop dengan mkcert)
+nginx/ssl/
+
+# Dependencies
+src/vendor/
+src/node_modules/
+
+# IDE & OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment files (berisi nilai lokal). .env.example TETAP di-commit.
+.env
+src/.env
+
+# Kredensial GitHub (jaga-jaga kalau tersimpan di folder proyek)
+.github-token
+.github-user
